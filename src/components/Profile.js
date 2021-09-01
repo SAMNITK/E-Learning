@@ -14,7 +14,7 @@ function Profile() {
 
       <div className = "maths-image">
         <img
-          src = {Maths_Images}
+          src = "images/04.jpg"
           alt = ""
         />
       </div>
