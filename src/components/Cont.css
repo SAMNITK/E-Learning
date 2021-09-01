@@ -1,0 +1,101 @@
+
+.cont_container > h1{
+    font-size: 29px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.teach-det > p{
+  font-size: 17px;
+}
+/* Contact.js */
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  /* margin-right: 60%; */
+  /* justify-content: center; */
+}
+.form > h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid gray;
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 800px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.form > button {
+  width: 50%;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  background-color: #242424;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-left: 25%;
+}
+
+.form > button:hover {
+  background-color: rgb(0, 0, 196);
+}
+.teach-des {
+  margin: 10px;
+}
+
+.form_container{
+  margin-left: 22%;
+  margin-right: 22%;
+}
+@media screen and (max-width: 820px){
+  .form_container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .form > h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .cont_container > h1{
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+    justify-content: center;
+} 
+.form > button {
+  width: 60%;
+  margin-left: 20%;
+}
+}

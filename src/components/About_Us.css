@@ -1,0 +1,76 @@
+.player{
+    margin: 10px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ 
+ }
+.about-container > h1{
+    font-size: 29px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.teach-det > p{
+  font-size: 17px;
+}
+
+.logo{
+   width: 200px;
+   
+}
+ .about-img{
+    width: 200px;
+ }
+ .teach-det{
+    margin: 10px;
+ }
+ .channel-des{
+    margin: 10px;
+    margin-left: 25px;
+ }
+ .logo{
+    width: 200px;
+    
+ }
+.about-content{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.about-content > p{
+    margin: 20px;
+    text-align: justify;
+}
+.about-channel{
+    display: flex;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-link{
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 820px){
+    .about-container{
+        flex-direction: column;
+        margin-left: 16%;
+     }
+     .about-content{
+         justify-content: center;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .about-channel{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .about-link{
+        margin-left: 5%;
+    }
+}
