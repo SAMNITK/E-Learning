@@ -27,7 +27,7 @@ import TenChapter3 from './components/10th/Chapter10th3';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/E-Learning">
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
